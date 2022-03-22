@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "tests/*": ["./__tests__/*"],
+    },
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+  }
+}
