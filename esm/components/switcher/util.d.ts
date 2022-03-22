@@ -1,0 +1,11 @@
+import { DraggableLocation } from 'react-beautiful-dnd';
+import { FieldType } from './constant';
+import { SwitcherItem, SwitcherResult, SwitcherState, SwitcherFields } from './interface';
+export declare const getSwitcherClassName: (...classNames: string[]) => string;
+export declare const getNonEmptyFieldCount: (fields: SwitcherFields) => number;
+export declare const getMainLayoutClassName: (nonEmptyCount: number) => string;
+export declare const shouldCrossRows: (nonEmptyCount: number, type: FieldType) => boolean;
+export declare const moveItem: (source: SwitcherItem[], destination: SwitcherItem[], droppableSource: DraggableLocation, droppableDestination: DraggableLocation) => SwitcherState;
+export declare const checkItem: (source: SwitcherItem[], checked: boolean, id: string, parentId?: string) => SwitcherItem[];
+export declare const generateSwitchResult: (state: SwitcherState) => SwitcherResult;
+export declare const getSwitcherState: (fields: SwitcherFields) => SwitcherState;

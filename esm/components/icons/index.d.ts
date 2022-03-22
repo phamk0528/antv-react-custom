@@ -1,0 +1,12 @@
+import { FC } from 'react';
+import './index.less';
+export declare const CalendarIcon: FC;
+export declare const TextIcon: FC;
+export declare const LocationIcon: FC;
+export declare const SearchIcon: FC;
+export declare const DotIcon: FC;
+export declare const SwitcherIcon: FC;
+export declare const RowIcon: FC;
+export declare const ColIcon: FC;
+export declare const ValueIcon: FC;
+export declare const SortIcon: FC;
