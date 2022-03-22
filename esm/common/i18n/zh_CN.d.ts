@@ -21,9 +21,9 @@ export declare const ZH_CN: {
     '\u5DF2\u9009 {} \u9879': string;
     所选项: string;
     组内升序: string;
+    组内降序: string;
     升序: string;
     降序: string;
-    组内降序: string;
     不排序: string;
     选择下钻维度: string;
     恢复默认: string;
